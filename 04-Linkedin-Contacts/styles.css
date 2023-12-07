@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f3f2ef;
+  margin: 1rem;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.pplAndButton {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 36px;
+}
+
+button {
+  all: initial;
+  margin-left: auto;
+  padding: 0.2rem;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#contacts {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  gap: 0px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 10%;
+}
+
+li {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0.5rem;
+  width: 330px;
+}
+
+.personContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: solid 0.1rem lightgray;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  height: 500px;
+  width: 330px;
+}
+
+.banner-img {
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profile-img {
+  width: 60%;
+  margin-bottom: 1px;
+  margin-right: 0%;
+  position: relative;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 5px white;
+}
+
+.contentContainer {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  position: relative;
+  height: 80%;
+  width: 80%;
+  z-index: 2;
+}
+
+.personContainer p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.personContainer .contentContainer p {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.personContainer p.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.personContainer p.profession {
+  font-size: 20px;
+  color: gray;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+.personContainer p.mutual {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.personContainer p.mutual::before {
+  content: "ބ";
+  margin-right: 5px;
+}
+
+.btnConnect {
+  text-align: center;
+  margin-top: 10px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  width: 80%;
+  height: 10%;
+  background-color: transparent;
+  border: 1px solid blue;
+  color: blue;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btnConnect:hover {
+  background-color: blue;
+  color: white;
+}
+
+.btnClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.904);
+  border: 1px solid rgba(128, 128, 128, 0.904);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btnClose:hover {
+  background-color: blue;
+  color: white;
+}
+
+.pending {
+  font-size: 25px;
+}
+.seeall {
+  font-size: 250px;
+}

@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: burlywood;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+input {
+  margin: 0 10px;
+}
+
+#colorValue {
+  margin-left: 10px;
+}
