@@ -25,3 +25,15 @@ input {
 #colorValue {
   margin-left: 10px;
 }
+
+#redSlider {
+  accent-color: red;
+}
+
+#greenSlider {
+  accent-color: green;
+}
+
+#blueSlider {
+  accent-color: blue;
+}
